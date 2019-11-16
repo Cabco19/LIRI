@@ -32,15 +32,15 @@ To retrieve the data that will power this app, requests are sent using the `axio
    * `do-what-it-says`
 
   #### `concert-this <artist name>` - When running this command, concert venue information is displayed for desired artist
-   *  ![alt test](screenshots/concert-this-temp.png)
+   *  ![alt concert-this](screenshots/concert-this-temp.png)
   
 
 
 
   #### `spotify-this-song` - When running this command, Spotify information is displayed for desired song
- *  ![alt test](screenshots/spotify-this-song.png)
+ *  ![alt spotify-this](screenshots/spotify-this-song.PNG)
 
 
 
    #### `movie-this` - When running this command, movie information is displayed
-*    ![alt test](screenshots/movie-this-temp.png)
+*    ![alt movie-this](screenshots/movie-this-temp.png)
