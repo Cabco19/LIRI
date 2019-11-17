@@ -12,7 +12,7 @@ var spotify = new Spotify(keys.spotify);
 var userAction = process.argv[2];
 var userChoice = process.argv[3];
 
-runLiri();
+runLiri(userAction, userAction);
 // Determines which process to perform.
 // Based on userChoice run one of the following
 function runLiri(){
@@ -29,8 +29,12 @@ switch (userAction) {
     searchMovie(userChoice);
     break;
   
-    case "do-what-it-says":
+  case "do-what-it-says":
     readRandom();
+    break;
+  
+  default:
+    console.log("Sorry, LIRI doesn't know how to do that. Try again!")
 }
 }
 
@@ -56,14 +60,14 @@ axios.get(queryUrl).then(
     function(response) {
       console.log("--------- CONCERT THIS ----------");
       console.log(" ");
-      console.log("Search: " + userChoice);
+      console.log("Upcoming Concerts for: " + userChoice);
       console.log("---------------------------------");
       for (i = 0; i < response.data.length; i++){
         // If the venue doesn't have a region run the following
         if (response.data[i].venue.region === ""){
           console.log(response.data[i].venue.name);
           console.log(response.data[i].venue.city + ", " + response.data[i].venue.country);
-          console.log (moment(response.data[i].datetime).format('MM-DD-YYYY'));
+          console.log ("Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY'));
           console.log("---------------------------------");
         }
         // If venue has a region run the following
@@ -143,23 +147,12 @@ function readRandom(){
   fs.readFile("random.txt", "utf8", function(err, data) {
     if (err) {
       return console.log(err);
-    }
-    // var output = data.split(",");
-
-    console.log(data);
+    }    
     var output = data.split(",");
-    console.log(output);
-    console.log(output.length);
-    var firstCall = output[0];
-    var secondCall = output[1];
-    console.log(firstCall);
-    console.log(secondCall);
-    for (var i = 0; i < output.length; i++) {
-
-      // Print each element (item) of the array/
-      console.log(output[i]);
-    }
-
+    userChoice = output[1];
+    userAction = output[0];
+    runLiri();
+   
   });
-runLiri(firstCall, secondCall);
+
 }
