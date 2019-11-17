@@ -32,8 +32,7 @@ To retrieve the data that will power this app, requests are sent using the `axio
    * `do-what-it-says`
 
   #### `concert-this <artist name>` - When running this command, concert venue information is displayed for desired artist
-   *  ![alt concert-this](screenshots/concert-this2.png)
-  
+   ![alt concert-this](screenshots/concert-this2.png)  
 
 
 
@@ -43,8 +42,8 @@ To retrieve the data that will power this app, requests are sent using the `axio
 
 
    #### `movie-this` - When running this command, movie information is displayed
-  ![alt movie-this](screenshots/movie-this.png)
+   ![alt movie-this](screenshots/movie-this.png)
 
 
    #### `do-what-it-says` - When running this command, LIRI reads random.txt and executes the command accordingly
-  ![alt movie-this](screenshots/do-what-it-says.png)
+   ![alt movie-this](screenshots/do-what-it-says.png)
