@@ -46,5 +46,5 @@ To retrieve the data that will power this app, requests are sent using the `axio
   ![alt movie-this](screenshots/movie-this.png)
 
 
-   #### `do-what-says` - When running this command, LIRI reads random.txt and executes the command accordingly
+   #### `do-what-it-says` - When running this command, LIRI reads random.txt and executes the command accordingly
   ![alt movie-this](screenshots/do-what-it-says.png)
