@@ -1,4 +1,79 @@
 
+Command: concert-thisAriana Grande
+
+------------ CONCERT THIS ------------
+Upcoming Concerts for Ariana Grande
+Showing 17 Venues
+--------------------------------------
+
+State Farm Arena
+Atlanta, GA, United States
+Date: 11-19-2019
+--------------------------------------
+Amalie Arena
+Tampa, FL, United States
+Date: 11-24-2019
+--------------------------------------
+Amway Center
+Orlando, FL, United States
+Date: 11-25-2019
+--------------------------------------
+American Airlines Arena
+Miami, FL, United States
+Date: 11-27-2019
+--------------------------------------
+PNC Arena
+Raleigh, NC, United States
+Date: 11-22-2019
+--------------------------------------
+VyStar Veterans Memorial Arena
+Jacksonville, FL, United States
+Date: 12-01-2019
+--------------------------------------
+Colonial Life Arena
+Columbia, SC, United States
+Date: 12-03-2019
+--------------------------------------
+Bridgestone Arena
+Nashville, TN, United States
+Date: 12-05-2019
+--------------------------------------
+FedEx Forum
+Memphis, TN, United States
+Date: 12-07-2019
+--------------------------------------
+American Airlines Center
+Dallas, TX, United States
+Date: 12-09-2019
+--------------------------------------
+Talking Stick Resort Arena
+Phoenix, AZ, United States
+Date: 12-12-2019
+--------------------------------------
+Honda Center
+Anaheim, CA, United States
+Date: 12-13-2019
+--------------------------------------
+Grand Garden Arena
+Las Vegas, NV, United States
+Date: 12-15-2019
+--------------------------------------
+Chase Center Experience
+San Francisco, CA, United States
+Date: 12-17-2019
+--------------------------------------
+Chase Center Experience
+San Francisco, CA, United States
+Date: 12-18-2019
+--------------------------------------
+The Forum
+Los Angeles, CA, United States
+Date: 12-21-2019
+--------------------------------------
+The Forum
+Los Angeles, CA, United States
+Date: 12-22-2019
+--------------------------------------
 Command: movie-this
 
 ------------ MOVIE THIS --------------
@@ -25,636 +100,11 @@ Plot: A boy stands on a station platform as a train is about to leave. Should he
 Main actors in the movie are: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 --------------------------------------
 
-Command: concert-thisAriana Grande
+Command: spotify-this-song
 
------------- CONCERT THIS ------------
-Upcoming Concerts for Ariana Grande
-Showing 17 Venues
---------------------------------------
-
-State Farm Arena
-Atlanta, GA, United States
-Date: 11-19-2019
---------------------------------------
-PNC Arena
-Raleigh, NC, United States
-Date: 11-22-2019
---------------------------------------
-Amalie Arena
-Tampa, FL, United States
-Date: 11-24-2019
---------------------------------------
-Amway Center
-Orlando, FL, United States
-Date: 11-25-2019
---------------------------------------
-American Airlines Arena
-Miami, FL, United States
-Date: 11-27-2019
---------------------------------------
-VyStar Veterans Memorial Arena
-Jacksonville, FL, United States
-Date: 12-01-2019
---------------------------------------
-Colonial Life Arena
-Columbia, SC, United States
-Date: 12-03-2019
---------------------------------------
-Bridgestone Arena
-Nashville, TN, United States
-Date: 12-05-2019
---------------------------------------
-FedEx Forum
-Memphis, TN, United States
-Date: 12-07-2019
---------------------------------------
-American Airlines Center
-Dallas, TX, United States
-Date: 12-09-2019
---------------------------------------
-Talking Stick Resort Arena
-Phoenix, AZ, United States
-Date: 12-12-2019
---------------------------------------
-Honda Center
-Anaheim, CA, United States
-Date: 12-13-2019
---------------------------------------
-Grand Garden Arena
-Las Vegas, NV, United States
-Date: 12-15-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-17-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-18-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-21-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-22-2019
---------------------------------------
-Command: concert-thisMaroon 5
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Maroon 5
-Showing 5 Venues
---------------------------------------
-
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-31-2019
---------------------------------------
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-30-2019
---------------------------------------
-Campo Argentino De Polo
-Buenos Aires, Argentina
-Date: 03-12-2020
---------------------------------------
-Estadio Centenario
-Montevideo, Uruguay
-Date: 03-10-2020
---------------------------------------
-Parque Salitre Magico
-Bogota, Colombia
-Date: 03-14-2020
---------------------------------------
-Command: concert-this
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Maroon 5
-Showing 5 Venues
---------------------------------------
-
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-31-2019
---------------------------------------
-Estadio Centenario
-Montevideo, Uruguay
-Date: 03-10-2020
---------------------------------------
-Campo Argentino De Polo
-Buenos Aires, Argentina
-Date: 03-12-2020
---------------------------------------
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-30-2019
---------------------------------------Maroon 5
-Parque Salitre Magico
-Bogota, Colombia
-Date: 03-14-2020
---------------------------------------
-Command: concert-thisMaroon 5
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Maroon 5
-Showing 5 Venues
---------------------------------------
-
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-31-2019
---------------------------------------
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-30-2019
---------------------------------------
-Estadio Centenario
-Montevideo, Uruguay
-Date: 03-10-2020
---------------------------------------
-Campo Argentino De Polo
-Buenos Aires, Argentina
-Date: 03-12-2020
---------------------------------------
-Parque Salitre Magico
-Bogota, Colombia
-Date: 03-14-2020
---------------------------------------
-Command: concert-thisMaroon 5
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Maroon 5
-Showing 5 Venues
---------------------------------------
-
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-30-2019
---------------------------------------
-Estadio Centenario
-Montevideo, Uruguay
-Date: 03-10-2020
---------------------------------------
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-31-2019
---------------------------------------
-Campo Argentino De Polo
-Buenos Aires, Argentina
-Date: 03-12-2020
---------------------------------------
-Parque Salitre Magico
-Bogota, Colombia
-Date: 03-14-2020
---------------------------------------
-Command: concert-this
-State Farm Arena
-Atlanta, GA, United States
-Date: 11-19-2019
---------------------------------------
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Ariana Grande
-Showing 17 Venues
---------------------------------------
-Ariana Grande
-PNC Arena
-Raleigh, NC, United States
-Date: 11-22-2019
---------------------------------------
-Amalie Arena
-Tampa, FL, United States
-Date: 11-24-2019
---------------------------------------
-Amway Center
-Orlando, FL, United States
-Date: 11-25-2019
---------------------------------------
-American Airlines Arena
-Miami, FL, United States
-Date: 11-27-2019
---------------------------------------
-VyStar Veterans Memorial Arena
-Jacksonville, FL, United States
-Date: 12-01-2019
---------------------------------------
-Colonial Life Arena
-Columbia, SC, United States
-Date: 12-03-2019
---------------------------------------
-Bridgestone Arena
-Nashville, TN, United States
-Date: 12-05-2019
---------------------------------------
-FedEx Forum
-Memphis, TN, United States
-Date: 12-07-2019
---------------------------------------
-Talking Stick Resort Arena
-Phoenix, AZ, United States
-Date: 12-12-2019
---------------------------------------
-Honda Center
-Anaheim, CA, United States
-Date: 12-13-2019
---------------------------------------
-American Airlines Center
-Dallas, TX, United States
-Date: 12-09-2019
---------------------------------------
-Grand Garden Arena
-Las Vegas, NV, United States
-Date: 12-15-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-17-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-18-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-21-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-22-2019
---------------------------------------
-Command: concert-thisAriana Grande
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Ariana Grande
-Showing 17 Venues
---------------------------------------
-
-PNC Arena
-Raleigh, NC, United States
-Date: 11-22-2019
---------------------------------------
-Amway Center
-Orlando, FL, United States
-Date: 11-25-2019
---------------------------------------
-American Airlines Arena
-Miami, FL, United States
-Date: 11-27-2019
---------------------------------------
-VyStar Veterans Memorial Arena
-Jacksonville, FL, United States
-Date: 12-01-2019
---------------------------------------
-Bridgestone Arena
-Nashville, TN, United States
-Date: 12-05-2019
---------------------------------------
-FedEx Forum
-Memphis, TN, United States
-Date: 12-07-2019
---------------------------------------
-American Airlines Center
-Dallas, TX, United States
-Date: 12-09-2019
---------------------------------------
-State Farm Arena
-Atlanta, GA, United States
-Date: 11-19-2019
---------------------------------------
-Talking Stick Resort Arena
-Phoenix, AZ, United States
-Date: 12-12-2019
---------------------------------------
-Colonial Life Arena
-Columbia, SC, United States
-Date: 12-03-2019
---------------------------------------
-Amalie Arena
-Tampa, FL, United States
-Date: 11-24-2019
---------------------------------------
-Honda Center
-Anaheim, CA, United States
-Date: 12-13-2019
---------------------------------------
-Grand Garden Arena
-Las Vegas, NV, United States
-Date: 12-15-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-17-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-18-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-21-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-22-2019
---------------------------------------
-Command: concert-this
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-31-2019
---------------------------------------
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Maroon 5
-Showing 5 Venues
---------------------------------------
-
-Mandalay Bay Events Center
-Las Vegas, NV, United States
-Date: 12-30-2019
---------------------------------------Maroon 5
-Estadio Centenario
-Montevideo, Uruguay
-Date: 03-10-2020
---------------------------------------
-Campo Argentino De Polo
-Buenos Aires, Argentina
-Date: 03-12-2020
---------------------------------------
-Parque Salitre Magico
-Bogota, Colombia
-Date: 03-14-2020
---------------------------------------
-Command: concert-this
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Ariana Grande
-Showing 17 Venues
---------------------------------------
-
-PNC Arena
-Raleigh, NC, United States
-Date: 11-22-2019
---------------------------------------
-State Farm Arena
-Atlanta, GA, United States
-Date: 11-19-2019
---------------------------------------
-Amalie Arena
-Tampa, FL, United States
-Date: 11-24-2019
---------------------------------------
-Amway Center
-Orlando, FL, United States
-Date: 11-25-2019
---------------------------------------Ariana Grande
-American Airlines Arena
-Miami, FL, United States
-Date: 11-27-2019
---------------------------------------
-VyStar Veterans Memorial Arena
-Jacksonville, FL, United States
-Date: 12-01-2019
---------------------------------------
-Colonial Life Arena
-Columbia, SC, United States
-Date: 12-03-2019
---------------------------------------
-Bridgestone Arena
-Nashville, TN, United States
-Date: 12-05-2019
---------------------------------------
-FedEx Forum
-Memphis, TN, United States
-Date: 12-07-2019
---------------------------------------
-American Airlines Center
-Dallas, TX, United States
-Date: 12-09-2019
---------------------------------------
-Talking Stick Resort Arena
-Phoenix, AZ, United States
-Date: 12-12-2019
---------------------------------------
-Honda Center
-Anaheim, CA, United States
-Date: 12-13-2019
---------------------------------------
-Grand Garden Arena
-Las Vegas, NV, United States
-Date: 12-15-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-17-2019
---------------------------------------
-Chase Center Experience
-San Francisco, CA, United States
-Date: 12-18-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-21-2019
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 12-22-2019
---------------------------------------
-Command: concert-this
-
------------- CONCERT THIS ------------
-Upcoming Concerts for The Neighborhood
-Showing 18 Venues
---------------------------------------
-The Neighborhood
-Command: concert-this
-
------------- CONCERT THIS ------------
-Upcoming Concerts for Billie Eilish
-Showing 46 Venues
---------------------------------------
-
-American Airlines Arena
-Miami, FL, United States
-Date: 03-09-2020
---------------------------------------Billie Eilish
-Corona Capital
-Mexico City, Mexico
-Date: 11-17-2019
---------------------------------------
-Amway Center
-Orlando, FL, United States
-Date: 03-10-2020
---------------------------------------
-PNC Arena
-Raleigh, NC, United States
-Date: 03-12-2020
---------------------------------------
-Wells Fargo Center
-Philadelphia, PA, United States
-Date: 03-13-2020
---------------------------------------
-Prudential Center
-Newark, NJ, United States
-Date: 03-16-2020
---------------------------------------
-TD Garden
-Boston, MA, United States
-Date: 03-19-2020
---------------------------------------
-Barclays Center
-Brooklyn, NY, United States
-Date: 03-20-2020
---------------------------------------
-Little Caesars Arena
-Detroit, MI, United States
-Date: 03-23-2020
---------------------------------------
-Madison Square Garden
-New York, NY, United States
-Date: 03-15-2020
---------------------------------------
-Bankers Life Fieldhouse
-Indianapolis, IN, United States
-Date: 03-25-2020
---------------------------------------
-United Center
-Chicago, IL, United States
-Date: 03-24-2020
---------------------------------------
-Enterprise Center
-St. Louis, MO, United States
-Date: 03-28-2020
---------------------------------------
-Bridgestone Arena
-Nashville, TN, United States
-Date: 03-27-2020
---------------------------------------
-CHI Health Center Omaha
-Omaha, NE, United States
-Date: 03-29-2020
---------------------------------------
-Pepsi Center
-Denver, CO, United States
-Date: 04-01-2020
---------------------------------------
-Capital One Arena
-Washington, DC, United States
-Date: 03-18-2020
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 04-04-2020
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 04-03-2020
---------------------------------------
-The Forum
-Los Angeles, CA, United States
-Date: 04-05-2020
---------------------------------------
-Golden 1 Center
-Sacramento, CA, United States
-Date: 04-08-2020
---------------------------------------
-Chase Center
-San Francisco, CA, United States
-Date: 04-07-2020
---------------------------------------
-Rogers Arena
-Vancouver, Canada
-Date: 04-11-2020
---------------------------------------
-Tacoma Dome
-Tacoma, WA, United States
-Date: 04-10-2020
---------------------------------------
-Arena VFG
-Tlajomulco De Zuñiga, Mexico
-Date: 05-25-2020
---------------------------------------
-Palacio de los Deportes
-Mexico City, Mexico
-Date: 05-27-2020
---------------------------------------
-Allianz Parque
-Sao Paulo, Brazil
-Date: 05-30-2020
---------------------------------------
-Jeunesse Arena
-Rio De Janeiro, Brazil
-Date: 05-31-2020
---------------------------------------
-DIRECTV Arena
-Tortuguitas, Argentina
-Date: 06-02-2020
---------------------------------------
-DIRECTV Arena
-Tortuguitas, Argentina
-Date: 06-03-2020
---------------------------------------
-Movistar Arena
-Santiago De Chile, Chile
-Date: 06-05-2020
---------------------------------------
-Movistar Arena
-Bogotá, Colombia
-Date: 06-07-2020
---------------------------------------
-NOS Alive
-Algés, Portugal
-Date: 07-10-2020
---------------------------------------
-Ziggo Dome
-Amsterdam, Netherlands
-Date: 07-13-2020
---------------------------------------
-Mercedes-Benz Arena
-Berlin, Germany
-Date: 07-14-2020
---------------------------------------
-Lanxess Arena
-Cologne, Germany
-Date: 07-15-2020
---------------------------------------
-MIND (Area Expo)
-Milano, Italy
-Date: 07-17-2020
---------------------------------------
-Lollapalooza Paris
-Paris, France
-Date: 07-18-2020
---------------------------------------
-Werchter Boutique
-Rotselaar, Belgium
-Date: 07-19-2020
---------------------------------------
-Manchester Arena
-Manchester, United Kingdom
-Date: 07-21-2020
---------------------------------------
-Manchester Arena
-Manchester, United Kingdom
-Date: 07-22-2020
---------------------------------------
-The O2
-London, United Kingdom
-Date: 07-27-2020
---------------------------------------
-The O2
-London, United Kingdom
-Date: 07-29-2020
---------------------------------------
-The O2
-London, United Kingdom
-Date: 07-30-2020
---------------------------------------
-Arena Birmingham
-Birmingham, United Kingdom
-Date: 07-24-2020
---------------------------------------
-The O2
-London, United Kingdom
-Date: 07-26-2020
+--------- SPOTIFY THIS SONG ----------
+Artist(s): The Who
+Song Name: Blue Red And Grey
+Album Name: The Who By Numbers (Expanded Edition)
+Preview link on Spotify: https://open.spotify.com/track/7EngpMPwriHk8e2WNfzU4l
 --------------------------------------
