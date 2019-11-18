@@ -11,8 +11,9 @@ var spotify = new Spotify(keys.spotify);
 // Grab user input and set to the following global variables
 var userAction = process.argv[2];
 var userChoice = process.argv[3];
+var userData;
 
-runLiri(userAction, userAction);
+runLiri(userAction, userChoice);
 // Determines which process to perform.
 // Based on userChoice run one of the following
 function runLiri(){
@@ -26,7 +27,13 @@ switch (userAction) {
     break;
 
   case "movie-this":
-    searchMovie(userChoice);
+      if (userChoice){
+        searchMovie(userChoice); 
+      }
+      else {
+        userChoice = "Mr Nobody";
+        searchMovie(userChoice); 
+      }
     break;
   
   case "do-what-it-says":
@@ -44,12 +51,9 @@ function searchSong(){
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-    console.log("--------- SPOTIFY THIS SONG ---------");
-    console.log("Artist(s): " + data.tracks.items[0].artists[0].name); 
-    console.log("Song Name: " + data.tracks.items[0].name); 
-    console.log("Album Name: " + data.tracks.items[0].album.name);
-    console.log("Preview link on Spotify: " + data.tracks.items[0].external_urls.spotify); 
-    console.log("-------------------------------------");
+    userData = "\n--------- SPOTIFY THIS SONG ----------\nArtist(s): " + data.tracks.items[0].artists[0].name + "\nSong Name: " + data.tracks.items[0].name + "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview link on Spotify: " + data.tracks.items[0].external_urls.spotify + "\n--------------------------------------\n";
+    console.log(userData);
+    logData(userData);
   });
 
 }
@@ -58,26 +62,32 @@ function searchBand(){
   var queryUrl = "https://rest.bandsintown.com/artists/" + userChoice + "/events?app_id=codingbootcamp&limit=20";
 axios.get(queryUrl).then(
     function(response) {
-      console.log("--------- CONCERT THIS ----------");
-      console.log(" ");
-      console.log("Upcoming Concerts for: " + userChoice);
-      console.log("---------------------------------");
+      var cityLocation;
+      var heading = "\n------------ CONCERT THIS ------------\n" + "Upcoming Concerts for " + userChoice + "\nShowing " + response.data.length + " Venues" + "\n--------------------------------------";
+      console.log(heading);                 
+      logData(heading);     
       for (i = 0; i < response.data.length; i++){
         // If the venue doesn't have a region run the following
         if (response.data[i].venue.region === ""){
-          console.log(response.data[i].venue.name);
-          console.log(response.data[i].venue.city + ", " + response.data[i].venue.country);
-          console.log ("Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY'));
-          console.log("---------------------------------");
+          cityLocation = response.data[i].venue.city + ", " + response.data[i].venue.country;
+          venueData = "\n" + response.data[i].venue.name + "\n" + cityLocation + "\n" + "Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY') + "\n--------------------------------------";
+          console.log(venueData);   
+          logData(venueData); 
+         
         }
         // If venue has a region run the following
         else {
-        console.log(response.data[i].venue.name);
-        console.log(response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country);
-        console.log (moment(response.data[i].datetime).format('MM-DD-YYYY'));
-        console.log("---------------------------------");
+          cityLocation = response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country;
+        // console.log(response.data[i].venue.name);
+        // console.log(cityLocation);
+        // console.log (moment(response.data[i].datetime).format('MM-DD-YYYY'));
+        // console.log("---------------------------------");
+        venueData = "\n" + response.data[i].venue.name + "\n" + cityLocation + "\n" + "Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY') + "\n--------------------------------------";
+        console.log(venueData);   
+        logData(venueData);
       }
       }
+
     })
     .catch(function(error) {
       if (error.response) {
@@ -103,22 +113,14 @@ axios.get(queryUrl).then(
 }
 
 // Function to search for movie information using axios and OMDB API
-function searchMovie(){
+function searchMovie(){ 
   var queryUrl = "http://www.omdbapi.com/?t=" + userChoice + "&y=&plot=short&apikey=trilogy";
-
 // Run a request with axios to the OMDB API with the movie specified
 axios.get(queryUrl).then(
   function(response) {
-    console.log("--------- MOVIE THIS ---------");
-    console.log("Movie Title: " + response.data.Title);
-    console.log("The movie came out in: " + response.data.Year);
-    console.log("IMDB Rating: " + response.data.imdbRating);
-    console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
-    console.log("The movie was produced in: " + response.data.Country);
-    console.log("Language: " + response.data.Language);
-    console.log("Plot: " + response.data.Plot);
-    console.log("Main actors in the movie are: " + response.data.Actors);
-    console.log("------------------------------");
+    userData = "\n------------ MOVIE THIS -------------\nMovie Title: " + response.data.Title + "\nThe movie came out in: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\nThe movie was produced in: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot + "\nMain actors in the movie are: " + response.data.Actors + "\n--------------------------------------\n"; 
+    console.log(userData);
+    logData(userData);
   })
   .catch(function(error) {
     if (error.response) {
@@ -151,8 +153,19 @@ function readRandom(){
     var output = data.split(",");
     userChoice = output[1];
     userAction = output[0];
-    runLiri();
-   
+    runLiri();   
+  });
+}
+
+function logData(userData) {
+  fs.appendFile("log.txt", userData, function(err) {
+
+    // If an error was experienced we will log it.
+    if (err) {
+      console.log(err);
+    }
+
+  
   });
 
 }
