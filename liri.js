@@ -19,14 +19,16 @@ runLiri(userAction, userChoice);
 function runLiri(){
 switch (userAction) {
   case "spotify-this-song":
+    logData("\nCommand: " + userAction);
     searchSong(userChoice);
     break;
 
   case "concert-this":
+    logData("\nCommand: " + userAction);
     searchBand(userChoice);
     break;
 
-  case "movie-this":
+  case "movie-this":      
       if (userChoice){
         searchMovie(userChoice); 
       }
@@ -34,6 +36,7 @@ switch (userAction) {
         userChoice = "Mr Nobody";
         searchMovie(userChoice); 
       }
+      logData("\nCommand: " + userAction);
     break;
   
   case "do-what-it-says":
@@ -51,7 +54,7 @@ function searchSong(){
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-    userData = "\n--------- SPOTIFY THIS SONG ----------\nArtist(s): " + data.tracks.items[0].artists[0].name + "\nSong Name: " + data.tracks.items[0].name + "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview link on Spotify: " + data.tracks.items[0].external_urls.spotify + "\n--------------------------------------\n";
+    userData = "\n\n--------- SPOTIFY THIS SONG ----------\nArtist(s): " + data.tracks.items[0].artists[0].name + "\nSong Name: " + data.tracks.items[0].name + "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview link on Spotify: " + data.tracks.items[0].external_urls.spotify + "\n--------------------------------------\n";
     console.log(userData);
     logData(userData);
   });
@@ -63,28 +66,24 @@ function searchBand(){
 axios.get(queryUrl).then(
     function(response) {
       var cityLocation;
-      var heading = "\n------------ CONCERT THIS ------------\n" + "Upcoming Concerts for " + userChoice + "\nShowing " + response.data.length + " Venues" + "\n--------------------------------------";
-      console.log(heading);                 
+      var heading = "\n\n------------ CONCERT THIS ------------\n" + "Upcoming Concerts for " + userChoice + "\nShowing " + response.data.length + " Venues" + "\n--------------------------------------\n";
+      console.log(heading);
+      logData(userChoice);               
       logData(heading);     
       for (i = 0; i < response.data.length; i++){
         // If the venue doesn't have a region run the following
         if (response.data[i].venue.region === ""){
           cityLocation = response.data[i].venue.city + ", " + response.data[i].venue.country;
-          venueData = "\n" + response.data[i].venue.name + "\n" + cityLocation + "\n" + "Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY') + "\n--------------------------------------";
-          console.log(venueData);   
-          logData(venueData); 
-         
+          userData = "\n" + response.data[i].venue.name + "\n" + cityLocation + "\n" + "Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY') + "\n--------------------------------------";
+          console.log(userData);   
+          logData(userData);          
         }
         // If venue has a region run the following
         else {
           cityLocation = response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country;
-        // console.log(response.data[i].venue.name);
-        // console.log(cityLocation);
-        // console.log (moment(response.data[i].datetime).format('MM-DD-YYYY'));
-        // console.log("---------------------------------");
-        venueData = "\n" + response.data[i].venue.name + "\n" + cityLocation + "\n" + "Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY') + "\n--------------------------------------";
-        console.log(venueData);   
-        logData(venueData);
+        userData = "\n" + response.data[i].venue.name + "\n" + cityLocation + "\n" + "Date: " + moment(response.data[i].datetime).format('MM-DD-YYYY') + "\n--------------------------------------";
+        console.log(userData);   
+        logData(userData);
       }
       }
 
@@ -118,7 +117,7 @@ function searchMovie(){
 // Run a request with axios to the OMDB API with the movie specified
 axios.get(queryUrl).then(
   function(response) {
-    userData = "\n------------ MOVIE THIS -------------\nMovie Title: " + response.data.Title + "\nThe movie came out in: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\nThe movie was produced in: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot + "\nMain actors in the movie are: " + response.data.Actors + "\n--------------------------------------\n"; 
+    userData = "\n\n------------ MOVIE THIS --------------\nMovie Title: " + response.data.Title + "\nThe movie came out in: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\nThe movie was produced in: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot + "\nMain actors in the movie are: " + response.data.Actors + "\n--------------------------------------\n"; 
     console.log(userData);
     logData(userData);
   })
@@ -165,7 +164,7 @@ function logData(userData) {
       console.log(err);
     }
 
-  
+  userData = "";
   });
 
 }
